@@ -1,4 +1,4 @@
-package br.com.zupacademy.felipe.gadelha.transaction.config;
+package br.com.zupacademy.felipe.gadelha.transaction.infra.config;
 
 import java.util.Map;
 
@@ -13,7 +13,7 @@ import org.springframework.kafka.core.ConsumerFactory;
 import org.springframework.kafka.core.DefaultKafkaConsumerFactory;
 import org.springframework.kafka.support.serializer.JsonDeserializer;
 
-import br.com.zupacademy.felipe.gadelha.transaction.v1.dto.TransactionDto;
+import br.com.zupacademy.felipe.gadelha.transaction.infra.dto.TransactionDto;
 
 @EnableKafka
 @Configuration
